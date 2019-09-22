@@ -64,7 +64,7 @@ function RPKIvali() {
 </head>
 <body>
 <p>RPKI online validator using <a href=https://www.nlnetlabs.nl/projects/rpki/routinator/ target=_blank>Routinator</a> 
-(Routinator <a href=routinator.php?url=/version>version</a>/<a href=routinator.php?url=/status>status</a>):<p>
+(Routinator <a href=routinator.php?url=/version&addpre=1>version</a>/<a href=routinator.php?url=/status&addpre=1>status</a>):<p>
 
 <p><b>Please input ASN & prefix:</b></p>
 <form name=myForm> 
