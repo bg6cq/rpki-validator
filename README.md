@@ -25,6 +25,6 @@ routinator init
 routinator server --rtr 127.0.0.1:3323 --http 127.0.0.1:9556
 ```
 
-4. copy index.php validity.php to web dir
+4. copy index.php validity.php routinator.php to web dir
 
 now you can access http://x.x.x.x/web
