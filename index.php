@@ -95,16 +95,17 @@ function RPKIvali() {
 </div>
 
   <div class="alert alert-info" role="alert">
-  Routinator output: <span id="status"></span>
+  Validate result: <span id="status"></span>
   </div>
 
-  <div class="container-fluid">
-  Detailed output: <span id="detail"></span>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  Detailed output of Routinator: <p><span id="detail"></span>
+  </div>
   </div>
 <script>
 RPKIvali();
 </script>
-<p>
-
+</div>
 </body>
 </html>
