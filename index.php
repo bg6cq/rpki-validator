@@ -77,9 +77,9 @@ function RPKIvali() {
 </script>
 <div id="wrapper">
   <div class="container-fluid">
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h2 class="display-6">RPKI online Validator using <a href=https://www.nlnetlabs.nl/projects/rpki/routinator/ target=_blank>Routinator</a>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <h2 class="display-6">RPKI online Validator using <a href=https://www.nlnetlabs.nl/projects/rpki/routinator/ target=_blank>Routinator</a>
 (Routinator <a href=routinator.php?url=/version&addpre=1>version</a>/<a href=routinator.php?url=/status&addpre=1>status</a>):</h2>
 
 <p class="lead"><a href=http://github.com/bg6cq/rpki-validator>http://github.com/bg6cq/rpki-validator</a></p>
@@ -91,21 +91,23 @@ function RPKIvali() {
 <tr><td align=right>Prefix:</td><td><input name=prefix type="text" value=202.141.160.0/20 onkeyup="RPKIvali()"></td></tr>
 </table>
 </form>
-</div>
-</div>
+      </div>
+    </div>
 
-  <div class="alert alert-info" role="alert">
+    <div class="alert alert-info" role="alert">
   Validate result: <span id="status"></span>
-  </div>
+    </div>
 
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-  Detailed output of Routinator: <p><span id="detail"></span>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">Detailed output of Routinator:
+      </div>
+      <div class="container"><span id="detail"></span>
+      </div>
+    </div>
   </div>
-  </div>
+</div>
 <script>
 RPKIvali();
 </script>
-</div>
 </body>
 </html>
