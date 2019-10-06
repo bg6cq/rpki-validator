@@ -35,6 +35,8 @@ function RPKIvali() {
 	var asn = document.forms["myForm"]["asn"].value;
 	var prefix = document.forms["myForm"]["prefix"].value;
 	if ((asn.length == 0) || (prefix.length ==0)) { 
+		document.getElementById('status').innerHTML = "";
+		document.getElementById('detail').innerHTML = "";
 		return;
 	} 
 	if(ajaxrun) 
